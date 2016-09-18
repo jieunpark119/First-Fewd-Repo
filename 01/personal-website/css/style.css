@@ -1,1 +1,48 @@
-//style
+
+body{
+	font-family: 'Space Mono', monospace;
+	background-color: black;
+	background-color: black;
+	color:white;
+
+}
+
+
+p{
+	font-size:14px;
+}
+
+/*Page titles*/
+#title{
+	font-size:30px;
+	display: inline;
+	
+}
+
+div{
+	margin-left: 40px;
+	margin-top:20px;
+	width:90%;
+	border-top: solid 3px;
+}
+
+
+a{
+	text-decoration: none;
+ 	color:white;
+}
+
+/*Experience list*/
+ul{
+	list-style-type:none
+}
+
+li{
+	font-size: 14px;
+}
+/*Link hover*/
+a:hover {
+    color: yellow;
+}
+
+
