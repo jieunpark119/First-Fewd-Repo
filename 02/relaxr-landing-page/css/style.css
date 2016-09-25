@@ -87,7 +87,7 @@ h1{
 /* BENEFITS
 /*******************************************/
 
-#benefits{
+.benefits{
 	width:100%;
 	height:550px;
 	background-color: #f0efef;
@@ -133,7 +133,7 @@ ul{
 /* QUOTE
 /*******************************************/
 
-#quote{
+.quote{
 	background-image: url("../images/testimonial_bg.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -167,7 +167,7 @@ blockquote {
 /* SIGN IN
 /*******************************************/
 
-#sign{
+.sign{
 	width:100%;
 	height:120px;
 	background-color:#f9e42e;
