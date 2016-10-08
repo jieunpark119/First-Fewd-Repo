@@ -1,0 +1,30 @@
+User writes celsius
+Hit convert button
+Fahrenheit = celsius*1.8 + 32
+var f = fahrenehit
+if f is (60 < f < 71) : spring (warm yello)
+if f is (70< f <80) : summer(blue)
+if f is (44< f < 59) : fall(brown)
+if f is (14< f < 43) : winter(white)
+
+show converted f 
+
+someone type celsius when they hit convert - it changes to fahrenheit. 
+It changes the background to match temperature. 
+
+
+
+----------------------------------------------------------------
+Reference
+----------------------------------------------------------------
+To convert temperatures in degrees Celsius to Fahrenheit, 
+multiply by 1.8 (or 9/5) and add 32.
+
+*1.8 +32
+
+Spring  - 59.8°F ~ 71.05°F
+Summer - 71.05°F ~ 81.1
+Fall - 44.3 ~59.8°F 
+Winter - 14 ~ 44
+
+http://stackoverflow.com/questions/23547188/how-do-you-make-a-picture-appear-onclick-using-javascript

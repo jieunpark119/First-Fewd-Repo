@@ -1,0 +1,77 @@
+body{
+    background: #C3EFEC;
+    height: 960px;
+    background: -webkit-linear-gradient(#84BBD5, #EFD8C3); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(#84BBD5, #EFD8C3);
+
+}
+
+
+
+h1{
+	display:inline-block;
+    text-align: center;
+    width: 100%;
+    font-size:30px;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    margin: 50px auto 0px;
+
+}
+
+
+input{
+
+	background-color: Transparent;
+	border: none;
+	display:block;
+    text-align: center;
+    width: 100px;
+    font-size:80px;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    margin: 100px auto 0px;
+
+
+}
+
+input:focus {outline:0;}
+
+
+button {
+   	background-color: Transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    font-size: 30px;
+    cursor: pointer;
+    width:100%;
+    margin: 0px auto;
+
+}
+
+button:hover {
+    color: #6AA3CB;
+}
+button:focus {outline:0;}
+
+
+
+
+#result{
+	background-color: Transparent;
+	border: none;
+    text-align: center;
+ 	width: 100%;
+    font-size:80px;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    margin: 0px auto 0px;
+}
+
