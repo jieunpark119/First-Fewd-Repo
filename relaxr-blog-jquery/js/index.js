@@ -26,7 +26,7 @@ function read(){
 
 }
 
-$(".read-more.first").on("click", read);
+$(".read-more.first").on("click", read).css( 'cursor', 'pointer' );
 
 
 var learnmore = true;
@@ -48,7 +48,7 @@ function learn(){
 
 }
 
-$(".learnButton").on("click", learn);
+$(".learnButton").on("click", learn).css( 'cursor', 'pointer' );
 
 
 
