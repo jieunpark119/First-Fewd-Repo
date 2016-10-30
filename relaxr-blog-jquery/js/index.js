@@ -6,27 +6,51 @@ $(".sbutton").on("click",function(){
 
 
 
-
-var readmore = true;
-
-function read(){
-	if(!readmore){
-
-		readmore = true;
-		$(".moretext.first").show();
-		$(".read-more p").html("< Read less");
-		
-	}else{
-
-		readmore=false;
-		$(".moretext.first").hide();
-		$(".read-more p").html("Read more >");
-		
-	}
-
+function change1(){
+    $(".moretext").slideDown(600);
+    $(".read-more p").html("< Read less");
 }
 
-$(".read-more.first").on("click", read).css( 'cursor', 'pointer' );
+function change2(){
+    $(".moretext").slideUp(600);
+    $(".read-more p").html("Read more >");
+}
+
+
+$(".read-more p").on("click",function(){
+    if($(this).text()==="Read more >"){
+        change1(); 
+    }else {
+        change2();
+    } ;
+
+
+});
+
+
+
+
+
+// var readmore = true;
+
+// function read(){
+// 	if(!readmore){
+
+// 		readmore = true;
+// 		$(".moretext.first").show();
+// 		$(".read-more p").html("< Read less");
+		
+// 	}else{
+
+// 		readmore=false;
+// 		$(".moretext.first").hide();
+// 		$(".read-more p").html("Read more >");
+		
+// 	}
+
+// }
+
+// $(".read-more.first").on("click", read).css( 'cursor', 'pointer' );
 
 
 var learnmore = true;

@@ -1,0 +1,163 @@
+/* BASE */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  width: 600px;
+  margin: 20px auto;
+}
+@media only screen and (min-width:767px) and (max-width: 1024px){
+ body{
+    margin: 2%;
+  }
+}
+
+.clear-parent {
+  overflow: hidden;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+header .logo {
+  float: left;
+  width: 50px;
+  height: 80px;
+  border: solid 1px #000;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+ header nav{
+    display: none;
+  }
+}
+
+header nav ul {
+  list-style: none;
+}
+
+
+header nav ul li {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 30px;
+  margin-left: 20px;
+  border: solid 1px #000;
+}
+
+/* MAIN */
+aside {
+  float: left;
+  width: 100px;
+  height: 340px;
+  border: solid 1px #000;
+  margin-right: 2%;
+}
+
+/*//tablet*/
+@media only screen and (min-width:767px) and (max-width: 1024px){
+  aside{
+    width: 20%;
+    margin-right: 2%;
+  }
+}
+/*mobile*/
+/*@media only screen and (max-width:767px){
+  aside{
+    width: 100%;
+  }
+}
+
+*/
+
+
+.right-container {
+  float: right;
+}
+
+
+
+.full-row {
+  width: 480px;
+  height: 100px;
+  border: solid 1px #000;
+  margin-bottom: 20px;
+
+
+}
+
+@media only screen and (min-width:767px) and (max-width: 1024px){
+.full-row{
+    float: ;
+    width: 90%;
+    margin-left: 2%;
+  }
+}
+
+.double-col {
+  margin-bottom: 20px;
+}
+
+
+
+.double-col .left {
+  float: left;
+  width: 355px;
+  height: 100px;
+  margin-right: 2%;
+  border: solid 1px #000;
+}
+
+@media only screen and (min-width:767px) and (max-width: 1024px){
+.double-col.left{
+    width: 40%;
+  }
+}
+
+
+.double-col .right {
+  float: left;
+  width: 105px;
+  height: 100px;
+  border: solid 1px #000;
+}
+
+@media only screen and (min-width:767px) and (max-width: 1024px){
+.double-col .right{
+    width: 150%;
+  }
+}
+
+
+.four-col .one-col {
+  float: left;
+  width: 105px;
+  height: 100px;
+  border: solid 1px #000;
+  margin-right: 20px;
+}
+
+.four-col .one-col.last {
+  margin-right: 0;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  border: solid 1px #000;
+}
