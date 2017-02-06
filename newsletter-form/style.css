@@ -1,0 +1,29 @@
+
+
+
+body{
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	background-color: #F6E3E1;
+	font-size: 25px;
+}
+
+
+h1{
+	color: #52C57E;
+}
+
+form{
+	text-align: left;
+	margin-left: 100px;
+}
+
+
+input:focus {
+    background-color: lightblue;
+}
+
+p{
+	color: #52C57E;
+
+}

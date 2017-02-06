@@ -86,7 +86,7 @@ header nav ul li {
 /* on mobile I want to these styles for the list items in my 
 nav: height: auto; display: block; color:#fff; text-align: center; 
 margin-left: 0px; font-size: 1.5em; line-height: 2em;*/
-@media only screen and (max-width:580px){
+/*@media only screen and (max-width:580px){
   header nav ul li {
     height: auto;
     display: block;
@@ -96,7 +96,7 @@ margin-left: 0px; font-size: 1.5em; line-height: 2em;*/
     font-size: 1.5em;
     line-height: 2em;
   }
-}
+}*/
 
 
 
